@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.logo {
+    width: 110%;
+    height: 90px;
+    margin-left: 20px;
+
+}
+
+nav {
+    margin-top: 0px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgb(112, 186, 16);
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+}
+
+li {
+
+    margin-left: 100px;
+    font-weight: bold;
+    background: transparent;
+    padding: 7px;
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(239, 230, 230);
+}
+
+body {
+    background-size: cover;
+    background-color: rgb(11, 0, 0);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+li:hover a {
+    color: red;
+}
+
+
+#clr {
+    color: rgb(128, 99, 173);
+}
+
+
+#black {
+    color: black;
+}
+
+#UI {
+    font-size: 80px;
+    text-align: center;
+    margin-top: 95px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+
+#para {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.video {
+    width: 650px;
+    height: 450px;
+    margin-left: 469px;
+    margin-top: 20px;
+    display: flex;
+    background: rgb(63, 51, 48);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.youtube {
+
+    display: flex;
+    width: 400%;
+    height: 300px;
+    justify-content: center;
+    
+    
+}
+
+.playnow {
+
+    margin-top: 10px;
+    text-align: center;
+    
+
+}
+
+.button {
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid #ffffff;
+    padding: 5px;
+    color: rgb(114, 122, 52);
+    border-radius: 5px;
+    background: transparent
+}
+
+#end {
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(231, 219, 219);
+    
+    text-align: center;
+}
+.foot{
+
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+
+    background-color:  rgb(30, 44, 32);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box1{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    text-align: center;
+}
+
+#follow{
+    font-size: 20px;
+    color: white;
+    margin-top: -150px;
+}
+.box2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 0;
+}
+#top{
+    color: white;
+    font-weight: bold;
+}
+#top1{
+    color: rgb(225, 216, 216);
+}
+.box4{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    text-align: center;
+    line-height: 20px;
+}
